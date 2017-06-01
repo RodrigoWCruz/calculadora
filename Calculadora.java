@@ -36,5 +36,10 @@ public class Calculadora {
     	}else{
     		return getNumero2()- getNumero1();
     	}
+    	
+    	  }
+    public double multiplicacao(){
+    	return numero1*numero2;
+    
    }
 }
