@@ -30,5 +30,15 @@ public class Calculadora {
     public double soma(){
     	return numero1+numero2;
     }
-   
+   public double subtracao(){
+    	if(getNumero1()>getNumero2()){
+    		return getNumero1() - getNumero2();
+    	}else{
+    		return getNumero2()- getNumero1();
+    	}
+    	 }
+    public double multiplicacao(){
+    	return numero1*numero2;
+    
+   }	
 }
