@@ -27,5 +27,8 @@ public class Calculadora {
     	this.numero2= numero;
     }
     
-   
+    public double soma(){
+    	return numero1+numero2;
+    }
+    
 }
