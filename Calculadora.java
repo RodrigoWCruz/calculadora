@@ -30,5 +30,5 @@ public class Calculadora {
     public double soma(){
     	return numero1+numero2;
     }
-    
+   
 }
